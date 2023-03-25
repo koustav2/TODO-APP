@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { AiOutlinePlus } from 'react-icons/ai';
+import { db } from './Firebase';
 import {
   query,
   collection,
