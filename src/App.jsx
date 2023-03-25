@@ -83,7 +83,7 @@ function App() {
             type="text"
             placeholder='ADD TODO'
           />
-          <button className={style.button}><AiOutlinePlus size={30} /></button>
+          <button className={style.button}>ADD</button>
         </form>
         <ul>
           {todos.map((todo, index) => (
